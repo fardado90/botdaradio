@@ -12,9 +12,8 @@ client.on('message', message => {
     		 if (carros[i] === 'f620') {
     		message.channel.send('f620:');
 		message.channel.send('https://wiki.rage.mp/images/thumb/2/21/F620.png/800px-F620.png');
-	    	
-  	}
-    	 	i++;
+	    	i++;}
+    	 	else{i++;}
 	 }
 
 	
