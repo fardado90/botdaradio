@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-	 var carros = message.split(',');
+	 var carros = message.content.split(',');
 	 var i = 0;
 	 while (i < carros.length) {
     		message.channel.send(carros[i]);
