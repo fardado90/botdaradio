@@ -9,11 +9,11 @@ client.on('message', message => {
 	 var carros = message.content.split(',');
 	 var i = 0;
 	 while (i < carros.length) {
-    		if (carros[i] === 'f620') {
+    		if (carros[i].trim() === 'f620') {
     			message.channel.send('f620:');
 				message.channel.send('https://wiki.rage.mp/images/thumb/2/21/F620.png/800px-F620.png');
 	    	}
-    		if(carros[i]==='Exemplar'){
+    		if(carros[i].trim() ==='Exemplar'){
 	 			message.channel.send('Exemplar:');
 				message.channel.send('https://wiki.rage.mp/images/thumb/a/a4/Exemplar.png/800px-Exemplar.png');
 	 		}
