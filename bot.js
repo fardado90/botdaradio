@@ -6,7 +6,16 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-	
+	 var carros = message.content.split(',');
+	 var i = 0;
+	 while (i < carros.length) {
+    		 if (carros[i] === 'f620') {
+    		message.channel.send('f620:');
+		message.channel.send('https://wiki.rage.mp/images/thumb/2/21/F620.png/800px-F620.png');
+	    	
+  	}
+    	 	i++;
+	 }
 
 	
     if (message.content === '!radio') {
