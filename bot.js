@@ -6,6 +6,13 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
+	 var carros = message.split(',');
+	 var i = 0;
+	 while (i < carros.length) {
+    		message.channel.send(carros[i]);
+    	 	i++;
+	 }
+
 	
     if (message.content === '!radio') {
     		var num = Math.floor(Math.random() * 999);
