@@ -17,7 +17,8 @@ client.on('message', message => {
 	 			message.channel.send('Exemplar:');
 				message.channel.send('https://wiki.rage.mp/images/thumb/a/a4/Exemplar.png/800px-Exemplar.png');
 	 		}
-	 	}
+	 i++;	
+	 }
 	 
 	
     if (message.content === '!radio') {
