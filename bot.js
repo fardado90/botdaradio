@@ -11,15 +11,14 @@ client.on('message', message => {
 	 while (i < carros.length) {
     		if (carros[i] === 'f620') {
     			message.channel.send('f620:');
-			message.channel.send('https://wiki.rage.mp/images/thumb/2/21/F620.png/800px-F620.png');
+				message.channel.send('https://wiki.rage.mp/images/thumb/2/21/F620.png/800px-F620.png');
 	    	}
-    	 else{
-		 if(carros[i]==='Exemplar'){
-	 	message.channel.send('Exemplar:');
-		message.channel.send('https://wiki.rage.mp/images/thumb/a/a4/Exemplar.png/800px-Exemplar.png');
-	 }
-	 }
-	 }
+    		if(carros[i]==='Exemplar'){
+	 			message.channel.send('Exemplar:');
+				message.channel.send('https://wiki.rage.mp/images/thumb/a/a4/Exemplar.png/800px-Exemplar.png');
+	 		}
+	 	}
+	 
 	
     if (message.content === '!radio') {
     		var num = Math.floor(Math.random() * 999);
