@@ -25,6 +25,11 @@ client.on('message', message => {
 	  	message.channel.send(' Radio temporaria para ação: '+num);
 	    	
   	}
+	 if (message.content === 'f620') {
+    		
+	  	message.channel.send('https://wiki.rage.mp/images/thumb/2/21/F620.png/164px-F620.png ');
+	    	
+  	}
 });
 
 // THIS  MUST  BE  THIS  WAY
