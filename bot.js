@@ -63,7 +63,7 @@ client.on('message', message => {
 	    	}
 	    	
 	    	if (carros[i].trim() === 'Felon2') {
-    			message.channel.send('Felon2:\nhttps://wiki.rage.mp/images/thumb/6/6e/Felon2.png/800px-Felon2.png');
+    			message.channel.send('Felon2: https://wiki.rage.mp/images/thumb/6/6e/Felon2.png/800px-Felon2.png');
 			}
 
 i++;	
