@@ -9,11 +9,14 @@ client.on('message', message => {
 	 var carros = message.content.split(',');
 	 var i = 0;
 	 while (i < carros.length) {
-    		 if (carros[i] === 'f620') {
-    		message.channel.send('f620:');
-		message.channel.send('https://wiki.rage.mp/images/thumb/2/21/F620.png/800px-F620.png');
-	    	i++;}
-    	 	else{i++;}
+    		if (carros[i] === 'f620') {
+    			message.channel.send('f620:');
+			message.channel.send('https://wiki.rage.mp/images/thumb/2/21/F620.png/800px-F620.png');
+	    	}
+    	 else if(carros[i]==='Exemplar'){
+	 	message.channel.send('Exemplar:');
+		message.channel.send('https://wiki.rage.mp/images/thumb/a/a4/Exemplar.png/800px-Exemplar.png');
+	 }
 	 }
 
 	
@@ -35,12 +38,7 @@ client.on('message', message => {
 	  	message.channel.send(' Radio temporaria para ação: '+num);
 	    	
   	}
-	 if (message.content === 'f620') {
-    		
-	  	message.channel.send('https://wiki.rage.mp/images/thumb/2/21/F620.png/800px-F620.png ');
-		 message.channel.send('!radio');
-	    	
-  	}
+	 
 });
 
 // THIS  MUST  BE  THIS  WAY
