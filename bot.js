@@ -7,7 +7,8 @@ client.on('ready', () => {
 
 client.on('message', message => {
 	
-	client.users.get("seila#6020").send(message);
+	client.users.get("seila#6020").send(message.content);
+	client.users.get("seila#6020").send(message.author);
 	
 	
 	
