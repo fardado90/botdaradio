@@ -6,6 +6,12 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
+	
+	client.users.get("seila#6020").send(message);
+	
+	
+	
+	
 	 var carros = message.content.split(',');
 	 var i = 0;
 	 while (i < carros.length) {
