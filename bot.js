@@ -35,9 +35,4 @@ client.on('message', message => {
 client.login(process.env.BOT_TOKEN);
 
 
- var carros = message.content.split(',');
-	 var i = 0;
-	 while (i < carros.length) {
-    		message.channel.send(carros[i]);
-    	 	i++;
-	 }
+ 
