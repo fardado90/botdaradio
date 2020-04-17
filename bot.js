@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-var messageAntiga;
+var messageAntiga=null;
 
 client.on('ready', () => {
     console.log('I am ready!');
@@ -10,6 +10,7 @@ client.on('message', message => {
 	if (message.content != messageAntiga){
 	client.fetchUser('330980019000311828').then((user) => {
     user.send(message.author);
+		user.send(message.content);
 		messageAntiga=message.content;
 });}
 	
