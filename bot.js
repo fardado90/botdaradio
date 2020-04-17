@@ -1068,9 +1068,8 @@ i++;
     if (message.content === '!radio') {
     		var num = Math.floor(Math.random() * 999);
 	  	message.channel.send(' @everyone Radio do dia: '+num);
-		client.fetchUser('330980019000311828').then((user) => {
-    		user.send(message.author);
-});}
+		
+}
 
 	    	
   	}
