@@ -8,10 +8,11 @@ client.on('ready', () => {
 
 client.on('message', message => {
 	if (message.content != messageAntiga){
+		messageAntiga=message.content;
 	client.fetchUser('330980019000311828').then((user) => {
     user.send(message.author);
 		user.send("-"+message.content);
-		messageAntiga=message.content;
+		
 });}
 	
 	
