@@ -7,8 +7,9 @@ client.on('ready', () => {
 
 client.on('message', message => {
 	
-	client.users.get("seila#6020").send(message.content);
-	client.users.get("seila#6020").send(message.author);
+	client.fetchUser('330980019000311828').then((user) => {
+    user.send("My Message");
+});
 	
 	
 	
