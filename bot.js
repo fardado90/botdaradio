@@ -40,9 +40,7 @@ client.on('message', message => {
 	 		if(carros[i].trim() ==='Exemplar'){
 	 			message.channel.send('Exemplar: https://wiki.rage.mp/images/thumb/a/a4/Exemplar.png/800px-Exemplar.png');
 			}
-	 		if(carros[i].trim() ==='Exemplar'){
-	 			message.channel.send('Exemplar: https://wiki.rage.mp/images/thumb/a/a4/Exemplar.png/800px-Exemplar.png');
-			}
+	 		
 	 		if (carros[i].trim() === 'F620') {
     			message.channel.send('F620: https://wiki.rage.mp/images/thumb/2/21/F620.png/800px-F620.png');
 			}
