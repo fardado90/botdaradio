@@ -679,8 +679,8 @@ client.on('message', message => {
 			if (carros[i].trim() === 'Kuruma') {
     			message.channel.send('Kuruma: https://wiki.rage.mp/images/thumb/8/8f/Kuruma.png/800px-Kuruma.png');
 			}
-			if (carros[i].trim() === 'Lynx2') {
-    			message.channel.send('Lynx2: https://wiki.rage.mp/images/thumb/a/a7/Lynx2.png/800px-Lynx2.png');
+			if (carros[i].trim() === 'Lynx') {
+    			message.channel.send('Lynx: https://wiki.rage.mp/images/thumb/a/a7/Lynx2.png/800px-Lynx2.png');
 			}
 			if (carros[i].trim() === 'Massacro') {
     			message.channel.send('Massacro: https://wiki.rage.mp/images/thumb/7/78/Massacro.png/800px-Massacro.png');
