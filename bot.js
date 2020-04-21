@@ -497,8 +497,8 @@ client.on('message', message => {
 			if (carros[i].trim() === 'Patriot2') {
     			message.channel.send('Patriot2: https://wiki.rage.mp/images/8/83/Patriot2.png');
 			}
-			if (carros[i].trim() === 'Radi') {
-    			message.channel.send('Radi: https://wiki.rage.mp/images/thumb/9/9c/Radi.png/800px-Radi.png');
+			if (carros[i].trim() === 'Radius') {
+    			message.channel.send('Radius: https://wiki.rage.mp/images/thumb/9/9c/Radi.png/800px-Radi.png');
 			}
 			if (carros[i].trim() === 'Rocoto') {
     			message.channel.send('Rocoto: https://wiki.rage.mp/images/thumb/2/23/Rocoto.png/800px-Rocoto.png');
@@ -604,8 +604,8 @@ client.on('message', message => {
 			if (carros[i].trim() === 'Banshee') {
     			message.channel.send('Banshee: https://wiki.rage.mp/images/thumb/d/d3/Banshee.png/800px-Banshee.png');
 			}
-			if (carros[i].trim() === 'Bestiagts') {
-    			message.channel.send('Bestiagts: https://wiki.rage.mp/images/thumb/5/5c/Bestiagts.png/800px-Bestiagts.png');
+			if (carros[i].trim() === 'BestiaGTS') {
+    			message.channel.send('BestiaGTS: https://wiki.rage.mp/images/thumb/5/5c/Bestiagts.png/800px-Bestiagts.png');
 			}
 			if (carros[i].trim() === 'Blista2') {
     			message.channel.send('Blista2: https://wiki.rage.mp/images/thumb/0/0c/Blista2.png/800px-Blista2.png');
