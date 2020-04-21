@@ -1,13 +1,10 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
+client.login(process.env.BOT_TOKEN);
 
 client.on('ready', () => {
     console.log('I am ready!');
 });
-
-var carro {
-
-}
 
 client.on('message', message => {
 	
@@ -1054,10 +1051,6 @@ client.on('message', message => {
 			if (carros[i].trim() === 'Youga2') {
     			message.channel.send('Youga2: https://wiki.rage.mp/images/thumb/e/e6/Youga2.png/800px-Youga2.png');
 			}
-
-
-
-
 i++;	
 	 }
 	
@@ -1082,7 +1075,6 @@ i++;
 });
 
 // THIS  MUST  BE  THIS  WAY
-client.login(process.env.BOT_TOKEN);
 
 
  
