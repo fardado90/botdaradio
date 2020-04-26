@@ -409,8 +409,8 @@ client.on('message', message => {
 			if (carros[i].trim() === 'Monster') {
     			message.channel.send('Monster: https://wiki.rage.mp/images/thumb/1/13/Monster.png/800px-Monster.png');
 			}
-			if (carros[i].trim() === 'Rancherxl') {
-    			message.channel.send('Rancherxl: https://wiki.rage.mp/images/thumb/e/ef/Rancherxl.png/800px-Rancherxl.png');
+			if (carros[i].trim() === 'RancherXL') {
+    			message.channel.send('RancherXL: https://wiki.rage.mp/images/thumb/e/ef/Rancherxl.png/800px-Rancherxl.png');
 			}
 			if (carros[i].trim() === 'Rebel') {
     			message.channel.send('Rebel: https://wiki.rage.mp/images/thumb/e/e3/Rebel.png/800px-Rebel.png');
