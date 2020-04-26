@@ -872,8 +872,8 @@ client.on('message', message => {
 			if (carros[i].trim() === 'Z190') {
     			message.channel.send('Z190: https://wiki.rage.mp/images/e/e1/Z190.png');
 			}
-			if (carros[i].trim() === 'Ztype') {
-    			message.channel.send('Ztype: https://wiki.rage.mp/images/thumb/5/56/Ztype.png/800px-Ztype.png');
+			if (carros[i].trim() === 'ZType') {
+    			message.channel.send('ZType: https://wiki.rage.mp/images/thumb/5/56/Ztype.png/800px-Ztype.png');
 			}
 			if (carros[i].trim() === 'Cheburek') {
     			message.channel.send('Cheburek: https://wiki.rage.mp/images/thumb/4/4f/Cheburek.png/800px-Cheburek.png');
