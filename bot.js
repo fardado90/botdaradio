@@ -364,8 +364,8 @@ client.on('message', message => {
     			message.channel.send('Yosemite: https://wiki.rage.mp/images/thumb/7/7a/Yosemite.png/800px-Yosemite.png');
 			}
 			//----------------------------------------------Off-Road--------------------------------------------------------
-			if (carros[i].trim() === 'Bfinject') {
-    			message.channel.send('Bfinject: https://wiki.rage.mp/images/thumb/3/3d/Bfinject.png/800px-Bfinject.png');
+			if (carros[i].trim() === 'BfInjection') {
+    			message.channel.send('BfInjection: https://wiki.rage.mp/images/thumb/3/3d/Bfinject.png/800px-Bfinject.png');
 			}
 			if (carros[i].trim() === 'Bifta') {
     			message.channel.send('Bifta: https://wiki.rage.mp/images/thumb/b/b7/Bifta.png/800px-Bifta.png');
@@ -449,8 +449,8 @@ client.on('message', message => {
 			if (carros[i].trim() === 'Baller6') {
     			message.channel.send('Baller6: https://wiki.rage.mp/images/thumb/8/81/Baller6.png/800px-Baller6.png');
 			}
-			if (carros[i].trim() === 'Bjxl') {
-    			message.channel.send('Bjxl: https://wiki.rage.mp/images/thumb/d/da/Bjxl.png/800px-Bjxl.png');
+			if (carros[i].trim() === 'BJX L') {
+    			message.channel.send('BJX L: https://wiki.rage.mp/images/thumb/d/da/Bjxl.png/800px-Bjxl.png');
 			}
 			if (carros[i].trim() === 'Cavalcade') {
     			message.channel.send('Cavalcade: https://wiki.rage.mp/images/thumb/9/9e/Cavalcade.png/800px-Cavalcade.png');
